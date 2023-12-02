@@ -1,0 +1,4 @@
+button {
+  min-width: 100px;
+  @apply h-10 cursor-pointer rounded-xl mr-3 border-2 border-solid border-primaryColor dark:border-darkPrimaryColor text-sm outline-none;
+}

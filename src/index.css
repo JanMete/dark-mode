@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Kaushan+Script&family=Oswald&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  @apply box-border m-0 p-0;
+}
+html {
+  @apply scroll-smooth;
+}
+body {
+  @apply font-comfortaa;
+}
+#root {
+  @apply max-md:items-center;
+}

@@ -1,0 +1,9 @@
+.imageContainer {
+  @apply border-2 border-solid border-secondaryColor dark:border-darkSecondaryColor rounded-lg px-2 py-5 mr-6 w-auto bg-background dark:bg-darkBackground shadow-lg shadow-black/50 max-md:m-0;
+}
+.imageContainer img {
+  @apply h-72 w-72;
+}
+.imageContainer h2 {
+  @apply text-2xl font-normal text-onBackgroundAlt dark:text-darkOnBackgroundAlt;
+}

@@ -1,0 +1,15 @@
+.navigation a {
+  @apply mr-6 dark:text-darkPrimaryColor text-primaryColor no-underline border-b-2 border-solid border-transparent hover:dark:text-darkOnBackground hover:text-onBackground hover:border-black hover:dark:border-white max-md:mr-4;
+}
+.mobileButton {
+  @apply text-primaryColor;
+}
+@media (hover: none) {
+  .navigation a {
+    @apply hover:dark:text-darkPrimaryColor hover:text-primaryColor hover:border-transparent hover:dark:border-transparent;
+  }
+
+  .mobileButton {
+    @apply text-primaryColor dark:text-darkPrimaryColor !important;
+  }
+}
