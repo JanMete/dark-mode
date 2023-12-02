@@ -28,7 +28,7 @@ export function Navigation({ theme, handleThemeSwitch }: themeState) {
             to='projects'
             spy={true}
             smooth={true}
-            offset={20}
+            offset={0}
             duration={500}
           >
             PROJECTS
