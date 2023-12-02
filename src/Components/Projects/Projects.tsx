@@ -10,27 +10,27 @@ export function Projects() {
         Buttons
       </h1>
       <div className=' mb-12 max-md:flex max-md:flex-wrap max-md:justify-center'>
-        <button className='bg-primaryColor mt-4 dark:bg-darkPrimaryColor text-onPrimary dark:text-darkOnPrimary hover:brightness-125 mr-5'>
+        <button className='bg-primaryColor dark:bg-darkPrimaryColor text-onPrimary dark:text-darkOnPrimary hover:brightness-125 mr-5 max-md:mb-5'>
           Primary
         </button>
-        <button className=' border-solid bg-secondaryColor dark:bg-darkSecondaryColor border-secondaryColor dark:border-darkSecondaryColor border-2 hover:bg-secondaryColor hover:dark:bg-darkSecondaryColor text-onPrimary dark:text-darkOnPrimary hover:brightness-125 max-md:mb-5 mr-5'>
+        <button className=' border-solid bg-secondaryColor dark:bg-darkSecondaryColor border-secondaryColor dark:border-darkSecondaryColor border-2 hover:bg-secondaryColor hover:dark:bg-darkSecondaryColor text-onPrimary dark:text-darkOnPrimary hover:brightness-125 mr-5 max-md:mb-5'>
           Secondary
         </button>
         <button
-          className='opacity-50 cursor-default bg-primaryColor dark:bg-darkPrimaryColor text-onPrimary dark:text-darkOnPrimary hover:brightness-125 mr-5'
+          className='opacity-50 cursor-default bg-primaryColor dark:bg-darkPrimaryColor text-onPrimary dark:text-darkOnPrimary hover:brightness-125 mr-5 max-md:mb-5 '
           disabled
         >
           Disabled
         </button>
-        <button className='bg-background dark:bg-darkBackground text-onBackground dark:text-darkOnBackground hover:bg-primaryColor hover:dark:bg-darkPrimaryColor hover:text-onPrimary hover:dark:text-darkOnPrimary mr-5'>
+        <button className='bg-background dark:bg-darkBackground text-onBackground dark:text-darkOnBackground hover:bg-primaryColor hover:dark:bg-darkPrimaryColor hover:text-onPrimary hover:dark:text-darkOnPrimary mr-5 max-md:mb-5'>
           Outline
         </button>
-        <button className='bg-background dark:bg-darkBackground text-onBackground dark:text-darkOnBackground border-2 border-secondaryColor dark:border-darkSecondaryColor hover:bg-secondaryColor dark:hover:bg-darkSecondaryColor hover:text-onPrimary dark:hover:text-darkOnPrimary mr-5'>
+        <button className='bg-background dark:bg-darkBackground text-onBackground dark:text-darkOnBackground border-2 border-secondaryColor dark:border-darkSecondaryColor hover:bg-secondaryColor dark:hover:bg-darkSecondaryColor hover:text-onPrimary dark:hover:text-darkOnPrimary mr-5 max-md:mb-5'>
           Alt Outline
         </button>
         <button
           disabled
-          className='opacity-50 cursor-default dark:hover:bg-darkPrimaryColor dark:text-darkOnBackground dark:hover:text-darkOnPrimary mr-5'
+          className='opacity-50 cursor-default dark:hover:bg-darkPrimaryColor dark:text-darkOnBackground dark:hover:text-darkOnPrimary mr-5 max-md:mb-5'
         >
           Disabled
         </button>
