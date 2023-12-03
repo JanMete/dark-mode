@@ -6,10 +6,10 @@ export function Home() {
     >
       <div className='text-center'>
         <h1 className='max-md:text-6xl text-9xl mb-5 font-kaushan dark:text-white'>
-          Custom Title Here
+          Dark Mode
         </h1>
         <h2 className='max-md:text-xl text-2xl font-normal text-onBackgroundAlt dark:text-darkOnBackgroundAlt'>
-          Welcome to the website!
+          Click the button in the top right corner to change the theme!
         </h2>
       </div>
     </section>
